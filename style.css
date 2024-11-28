@@ -1,0 +1,77 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f7f4f7;
+    color: black;
+}
+form{
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+div{
+    margin-bottom: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+}
+input, select, textarea, button{
+width: 100%;
+padding: 10px;
+margin-top: 5px;
+border: 1px solid black;
+border-radius: 4px;
+font-size: 15px;
+box-sizing: border-box;
+}
+input:focus , select:focus, textarea:focus{
+    border: 1px solid blue;
+    outline: none;
+}
+input[type="radio"]{
+width: auto;   
+}
+.radio_grp{
+    display: flex;
+    align-items: center;
+}
+button{
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: rgb(39, 131, 224);
+    font-size: 15px;
+    color: white;
+}
+button:hover{
+    background-color: blue;
+    width: 100%;
+    transition: background-color 1s;
+}
+button[type="reset"]{
+    background-color: rgba(5, 116, 5, 0.719);
+}
+button[type="reset"]:hover{
+    background-color: green;
+}
+button[type="button"]{
+    background-color: rgba(111, 4, 4, 0.719);
+}
+button[type="button"]:hover{
+    background-color: rgb(193, 14, 14);
+}
+#demo{
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
