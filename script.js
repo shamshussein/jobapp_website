@@ -27,9 +27,9 @@ document.getElementById('jobApplicationForm').addEventListener('submit', functio
     a.href = url;
     a.download = 'job_application.json';
 
-    document.body.appendChild(a); // Ensure the anchor is in the DOM
+    document.body.appendChild(a); 
     a.click();
-    document.body.removeChild(a); // Clean up after click
+    document.body.removeChild(a); 
 
 });
 
